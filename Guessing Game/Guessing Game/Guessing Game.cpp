@@ -9,7 +9,7 @@ int main(){
     srand((unsigned)time(NULL)); // Initializing random generator
     
     // Initiaizing variables
-    int keypressed, randomNum, inputNum, guesses = 0;
+    int randomNum, inputNum, guesses = 0;
     char reply;
     bool whenToStop = 1;
 
