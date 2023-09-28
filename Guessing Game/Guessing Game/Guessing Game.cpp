@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <random>
-#include <conio.h>
 using namespace std;
 
 int main(){
@@ -42,6 +41,7 @@ int main(){
                 break;
             }else if (reply == 'N' || reply == 'n') {
                 whenToStop = 0;
+                cout << '\n' << "Thanks for playing!\n";
                 break;
             }else { // Command if input is invalid
                 cout << '\n' << "Please indicate Y or N: ";
@@ -55,7 +55,7 @@ int main(){
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
+// Tips for Getting Started:
 //   1. Use the Solution Explorer window to add/manage files
 //   2. Use the Team Explorer window to connect to source control
 //   3. Use the Output window to see build output and other messages
